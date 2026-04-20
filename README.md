@@ -2,7 +2,7 @@
 
 A complete MATLAB pipeline for **EEG-based motor imagery classification** using signal processing, Common Spatial Patterns (CSP), and machine learning.
 
-This work is based on **BCI Competition III – Dataset IVa**.
+This work is based on **BCI Competition III – Dataset IVa**. Read the [Dataset description](https://www.bbci.de/competition/iii/desc_IVa.html)
 
 This project implements a full Brain-Computer Interface (BCI) pipeline to classify **motor imagery EEG signals** (Right Hand vs Foot).
 
@@ -10,11 +10,14 @@ The objective is to transform raw EEG signals into discriminative features and e
 
 ---
 ## How to Run
-1- Place dataset file: ` data_set_IVa_al.mat `
+
+1- Download the dataset from [BCI Competition III – Dataset IVa](https://www.bbci.de/competition/iii/)
 
 2- Open MATLAB
 
-3- Run: ` run_pipeline `
+3- Start by loading one of the subjects. ` data_set_IVa_al.mat ` is chosen here.
+
+4- Run: ` run_pipeline.m `
 
 
 ---
