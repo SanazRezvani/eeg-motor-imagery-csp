@@ -116,3 +116,9 @@ Three classifiers are implemented:
    - Limited feature dimensionality
    - No kernel tuning (baseline setup)
  
+## Extension Project
+
+A Filter Bank Common Spatia; Pattern (FBCSP) extension of this project is available [here](https://github.com/SanazRezvani/eeg-motor-imagery-fbcsp)
+
+This extension decomposes EEG signals into multiple mu and beta sub-bands and applies CSP to each sub-band to improve motor imagery feature extraction.
+ 
